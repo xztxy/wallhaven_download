@@ -102,16 +102,11 @@ class WallhavenDownloader(QWidget):
         self.image_url_edit.setReadOnly(True)
         hbox1 = QHBoxLayout()
         hbox1.addWidget(self.fenbianlv_combo)
-        
-        
-        
+ 
         hbox4 = QHBoxLayout()
         hbox4.addWidget(self.folder_button)
         hbox4.addWidget(search_button)
         hbox4.addWidget(download_button)
-
-
-
 
         hbox5 = QHBoxLayout()
         hbox5.addWidget(atleast_label)
@@ -119,9 +114,6 @@ class WallhavenDownloader(QWidget):
         hbox5.addWidget(atleast_combo)
 
         hbox6 = QHBoxLayout()
-
-
-        self.purity_combo.currentIndexChanged.connect(self.setPurity)
         hbox6.addWidget(category_label)
         hbox6.addWidget(self.category_combo)
         hbox6.addWidget(purity_label)
@@ -261,9 +253,6 @@ class WallhavenDownloader(QWidget):
 
         # reset the folder attribute after download completes
         progress.close()
-
-
-
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
