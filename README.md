@@ -1,6 +1,7 @@
-# wallhaven_download
+# Wallhaven_download
+简单弄了一个GUI界面，来实现批量下载[wallhaven](https://wallhaven.cc/)图片的功能。
 
-    这个程序是一个 Python 图片下载器，使用 PyQt5 库来创建一个图形用户界面 (GUI)。下面是程序的主要功能：
+使用 PyQt5 库来创建一个图形用户界面 (GUI)。下面是程序的主要功能：
 1、允许用户选择下载路径。
 2、允许用户在 Wallhaven 上搜索图片。
 3、允许用户选择搜索条件，如分辨率、纯度、类别等。
