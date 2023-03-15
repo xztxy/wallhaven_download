@@ -61,7 +61,7 @@ class WallhavenDownloader(QWidget):
         self.atleast_edit.textChanged.connect(self.setAtleast)
         atleast_combo = QComboBox()
         atleast_combo.addItems(["", "640x480", "800x600", "1024x768", "1280x720", "1280x800", "1366x768",
-                                "1440x900", "1600x900", "1680x1050", "1920x1080", "2560x1440", "3840x2160"])
+                                "1440x900", "1600x900", "1680x1050", "1920x1080", "2560x1440", "3840x2160", "7680×4320", "4320x7680"])
         atleast_combo.activated[str].connect(self.setAtleast)
         self.atleast_edit.textChanged.connect(self.setAtleast)
 
