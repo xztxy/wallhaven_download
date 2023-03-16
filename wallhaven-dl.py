@@ -3,7 +3,7 @@ import requests
 import os
 from bs4 import BeautifulSoup
 from PyQt5.QtCore import Qt, QSettings
-from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QComboBox, QPushButton, QTextEdit, QVBoxLayout, QHBoxLayout, QFileDialog, QLineEdit, QProgressDialog
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QComboBox, QPushButton, QTextEdit, QVBoxLayout, QHBoxLayout, QFileDialog, QLineEdit, QProgressDialog, QMessageBox
 
 
 class WallhavenDownloader(QWidget):
